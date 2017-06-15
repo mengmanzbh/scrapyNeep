@@ -3,7 +3,7 @@ import scrapy
 import csv
 import json
 from pymongo import MongoClient
-import pika
+# import pika
 
 class JdSpider(scrapy.Spider):
     name = "jd"
